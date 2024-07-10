@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csproj", "{0176DF81-6C26-4BF2-9CD8-7334D1FABBE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shapes", "Shapes\Shapes.csproj", "{0176DF81-6C26-4BF2-9CD8-7334D1FABBE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SigmaNotation", "SigmaNotation\SigmaNotation.csproj", "{8C0EECAA-CDB9-4D64-82EA-558CEC7154A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SigmaNotation", "SigmaNotation\SigmaNotation.csproj", "{8C0EECAA-CDB9-4D64-82EA-558CEC7154A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting", "Sorting\Sorting.csproj", "{828E4926-F4DE-4E13-A7E9-A27767164796}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8C0EECAA-CDB9-4D64-82EA-558CEC7154A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C0EECAA-CDB9-4D64-82EA-558CEC7154A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C0EECAA-CDB9-4D64-82EA-558CEC7154A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{828E4926-F4DE-4E13-A7E9-A27767164796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{828E4926-F4DE-4E13-A7E9-A27767164796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{828E4926-F4DE-4E13-A7E9-A27767164796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{828E4926-F4DE-4E13-A7E9-A27767164796}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
