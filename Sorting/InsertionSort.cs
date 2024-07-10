@@ -1,9 +1,9 @@
 ﻿using System;
 
-public class InsertionSortExample
+public class InsertionSort
 {
     // Method for performing insertion sort
-    public void InsertionSort(int[] array)
+    public void InsertionSortAlgorithm(int[] array)
     {
         for (int i = 1; i < array.Length; i++)
         {
