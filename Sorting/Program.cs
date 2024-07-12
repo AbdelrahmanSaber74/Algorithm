@@ -7,6 +7,7 @@
         BubbleSort bubbleSorter = new BubbleSort();
         InsertionSort insertionSorter = new InsertionSort();
         SelectionSort selectionSorter = new SelectionSort();
+        MergeSort mergeSorter = new MergeSort();
 
         // Sorting with Bubble Sort
         int[] arrayBubbleSort = (int[])array.Clone(); // Create a copy for bubble sort
@@ -31,6 +32,16 @@
         selectionSorter.SelectionSortAlgorithm(arraySelectionSort);
         Console.WriteLine("Array after selection sort:");
         selectionSorter.PrintArray(arraySelectionSort);
+
+
+
+        // Sorting with Merge Sort
+        int[] arrayMergeSort = (int[])array.Clone(); // Create a copy for merge sort
+        Console.WriteLine("\nArray before merge sort:");
+        mergeSorter.PrintArray(arrayMergeSort);
+        mergeSorter.MergeSortAlgorithm(arrayMergeSort, 0, arrayMergeSort.Length - 1);
+        Console.WriteLine("Array after merge sort:");
+        mergeSorter.PrintArray(arrayMergeSort);
 
     }
 }
